@@ -1,10 +1,12 @@
-# A slightly longer demo of usings class, that includes the use of a class attribute.
-# There's only one of these per class, and it's accessible to all the instances.
+# A slightly longer demo of usings class, that includes the use of a
+# class attribute.  There's only one of these per class, and it's
+# accessible to all the instances.
 #
-# In this example the class variable is used to count the number of cars that have
-# been created.
+# In this example the class variable is used to count the number of
+# cars that have been created.
 #
 # Also demonstrated is the dynamic addition of a method to the class.
+
 import math
 class car():                     # or car(vehicle) if car is subclass of vehicle
     count = 0
@@ -32,8 +34,7 @@ blueCar.windows = False     # add an attribute
 print "blueCar: windows=", blueCar.windows
 
 
-#dynamically add a method called SquareRoot to the class
-# I'm u
+# Dynamically add a method called SquareRoot to the class
 
 def mySquareRoot(x):
     return math.sqrt(x)
